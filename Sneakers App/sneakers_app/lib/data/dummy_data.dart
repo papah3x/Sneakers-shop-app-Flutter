@@ -5,10 +5,10 @@ import '../models/models.dart';
 final List<ShoeModel> availableShoes = [
   ShoeModel(
     name: "NIKE",
-    model: "AIR-MAX",
+    model: "SB-DUNK",
     price: 130.00,
-    imgAddress: "assets/images/nike1.png",
-    modelColor: const Color(0xffDE0106),
+    imgAddress: "assets/images/nike-rais-1.png",
+    modelColor: Color.fromARGB(255, 232, 101, 1),
   ),
   ShoeModel(
     name: "NIKE",
@@ -19,10 +19,10 @@ final List<ShoeModel> availableShoes = [
   ),
   ShoeModel(
     name: "NIKE",
-    model: "ZOOM",
+    model: "DUNK LOW",
     price: 160.00,
-    imgAddress: "assets/images/nike2.png",
-    modelColor: const Color(0xffE66863),
+    imgAddress: "assets/images/nike-rais-2.png",
+    modelColor: Color.fromARGB(255, 240, 128, 239),
   ),
   ShoeModel(
     name: "NIKE",
@@ -39,11 +39,11 @@ final List<ShoeModel> availableShoes = [
     modelColor: const Color(0xff37376B),
   ),
   ShoeModel(
-    name: "NIKE",
-    model: "ZOOM",
+    name: "ADIDAS",
+    model: "SPEZIAL",
     price: 115.00,
-    imgAddress: "assets/images/nike4.png",
-    modelColor: const Color(0xffE4E3E8),
+    imgAddress: "assets/images/Adidas-rais-3.png",
+    modelColor: Color.fromARGB(255, 139, 236, 207),
   ),
   ShoeModel(
     name: "NIKE",

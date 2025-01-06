@@ -52,8 +52,8 @@ class _BodyProfileState extends State<BodyProfile> {
         children: [
           CircleAvatar(
             radius: 50,
-            backgroundImage: NetworkImage(
-                "https://avatars.githubusercontent.com/u/91388754?v=4"),
+            backgroundImage: AssetImage(
+                "assets/images/rais.jpg"),
           ),
           SizedBox(
             width: 20,
@@ -62,11 +62,11 @@ class _BodyProfileState extends State<BodyProfile> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Amir.H Bayat",
+                "Rais Store",
                 style: AppThemes.profileDevName
               ),
               Text(
-                "Flutter Developer",
+                "Sneakers Store",
                 style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.w500,

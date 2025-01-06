@@ -11,7 +11,9 @@ class MyBagScreen extends StatelessWidget {
     return const SafeArea(
       child: Scaffold(
         backgroundColor: AppConstantsColor.backgroundColor,
-        body: BodyBagView(),
+        body: SingleChildScrollView(
+          child: BodyBagView(),
+        ),
       ),
     );
   }
